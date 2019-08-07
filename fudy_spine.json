@@ -1,0 +1,48 @@
+{ "skeleton": { "images": "images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "tail", "bone": "root", "attachment": "tail" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "ear_R", "bone": "root", "attachment": "ear_R" },
+	{ "name": "ear_L", "bone": "root", "attachment": "ear_L" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "eyes_L", "bone": "root", "attachment": "eyes_L" },
+	{ "name": "eyes_R", "bone": "root", "attachment": "eyes_R" },
+	{ "name": "arm_R", "bone": "root", "attachment": "arm_R" },
+	{ "name": "arm_L", "bone": "root", "attachment": "arm_L" }
+],
+"skins": {
+	"default": {
+		"tail": {
+			"tail": { "x": -169.5, "y": 146, "width": 143, "height": 164 }
+		},
+		"body": {
+			"body": { "x": 1.5, "y": 200, "width": 411, "height": 410 }
+		},
+		"ear_R": {
+			"ear_R": { "x": -60.5, "y": 787, "width": 105, "height": 280 }
+		},
+		"ear_L": {
+			"ear_L": { "x": 76.4999999999999, "y": 797.5, "width": 117, "height": 263 }
+		},
+		"head": {
+			"head": { "x": 24.0000000000001, "y": 525.5, "width": 544, "height": 471 }
+		},
+		"eyes_L": {
+			"eyes_L": { "x": 85.0000000000001, "y": 536, "width": 96, "height": 78 }
+		},
+		"eyes_R": {
+			"eyes_R": { "x": -80, "y": 536, "width": 96, "height": 78 }
+		},
+		"arm_R": {
+			"arm_R": { "x": -246.5, "y": 278, "width": 323, "height": 232 }
+		},
+		"arm_L": {
+			"arm_L": { "x": 249.5, "y": 276.5, "width": 325, "height": 233 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
